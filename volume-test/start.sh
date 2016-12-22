@@ -2,7 +2,7 @@
 
 while true
 do
-  echo "`hostname`: `date`" >> /var/lib/mysql/hehe.txt
+  echo "`hostname`: `date`" >> /home/hehe.txt
   sleep 1 
-  ls -l /var/lib/mysql/hehe.txt
+  ls -l /home/hehe.txt
 done
