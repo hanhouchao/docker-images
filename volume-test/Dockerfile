@@ -1,5 +1,5 @@
 FROM alpine:3.4
-VOLUME ["/home"]
+VOLUME ["/var"]
 ADD start.sh /start.sh
 RUN chmod +x /start.sh
 
